@@ -7,23 +7,30 @@ PAGE_TO_SCRAPE = 'https://www.datacamp.com/courses/all'
 
 # Other static values
 SITE_PREFIX = "https://www.datacamp.com"
+COURSES_TO_SCRAPE = -1                  # Number of courses to scrape (-1 for all possible courses)
 
 # Fields to extract and their corresponding json keys
-ID = 'id'
-URL = 'url'
-TITLE = 'title'
+# Mandatory Fields
+TITLE = 'title'                         # Title for the course
+URL = 'url'                             # URL for the course
+DESC = 'description'                    # A brief description about the course
+AUTHOR_NAME = 'name'                    # Name of the author/instructor
+AUTHOR_ORG = 'organization'             # Designation and organization of the author
+
+# Sub-level JSON fields
 AUTHORS_SUB_JSON = 'authors'
-AUTHOR_NAME = 'name'
-AUTHOR_ORG = 'organization'
-AUTHOR_URL = 'url'
-DESC = 'description'
-DURATION = 'duration'
-EXERCISES = 'exercises'
-VIDEOS = 'videos'
-PARTICIPANTS = 'participants'
 DATASETS_SUB_JSON = 'datasets-used'
-DATASET_NAME = 'name'
-DATASET_URL = 'url'
+
+# Add-on fields
+ID = 'id'                               # Course ID as per the datacamp website
+AUTHOR_URL = 'url'                      # Page on author for the course
+DURATION = 'duration'                   # Duration of the course
+EXERCISES = 'exercises'                 # Number of exercises
+VIDEOS = 'videos'                       # Number of videos
+PARTICIPANTS = 'participants'           # Number of participants who have taken this course
+DATASET_NAME = 'name'                   # Dataset name used in the course if any
+DATASET_URL = 'url'                     # CSV file of the Dataset
+CHAPTERS = 'chapters'                   # List of chapters or topics covered in the course
 
 
 # This function fetches the details about the authors/instructors
@@ -53,12 +60,27 @@ def fetch_course_datasets(datasets_divs):
     for dataset in datasets_divs:
         dataset_dict = dict()
 
-        dataset_dict[DATASET_NAME] = dataset.find("a")['href']
-        dataset_dict[DATASET_URL] = dataset.find("a").get_text()
+        dataset_dict[DATASET_NAME] = dataset.find("a").get_text().strip()
+        dataset_dict[DATASET_URL] = dataset.find("a")['href']
 
         datasets_list.append(dataset_dict)
 
     return datasets_list
+
+
+# This function fetches the chapters or topics covered in the course
+def fetch_course_chapters(chapters_h4s):
+    chapters_list = list()
+    chapter_count = 0
+    for chapter in chapters_h4s:
+        chapters_list.append(chapter.get_text().strip())
+
+        chapter_count += 1
+
+        if chapter_count == len(chapters_h4s) / 2:
+            break
+
+    return chapters_list
 
 
 # This function browses the specific course web pages and parses them
@@ -78,6 +100,8 @@ def fetch_course_nested_data(course_dict, course_url):
     course_dict[AUTHORS_SUB_JSON] = fetch_course_instructors(nested_soup.find_all("div", class_="course__instructor"))
 
     course_dict[DATASETS_SUB_JSON] = fetch_course_datasets(nested_soup.find_all("li", class_="course__dataset"))
+
+    course_dict[CHAPTERS] = fetch_course_chapters(nested_soup.find_all("h4", class_="chapter__title"))
 
 
 # Function to fetch the fields from the base page and navigate further
@@ -107,14 +131,15 @@ if __name__ == '__main__':
     # Fetching every child article for every course
     courses_articles = courses_explore_div.find_all("article")
 
-    temp = 0
+    courses_count = 0
 
     courses_dict = dict()
     # Iterate over every course article
     for course_article in courses_articles:
         courses_dict['course-'+course_article['data-id']+'-info'] = fetch_course_data(course_article)
-        temp += 1
-        if temp > 5:
+
+        courses_count += 1
+        if COURSES_TO_SCRAPE != -1 and courses_count > COURSES_TO_SCRAPE:
             break
 
     data_dict = dict()
