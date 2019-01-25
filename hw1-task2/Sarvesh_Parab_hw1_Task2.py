@@ -14,58 +14,51 @@ COURSES_TO_SCRAPE = -1                  # Number of courses to scrape (-1 for al
 TITLE = 'title'                         # Title for the course
 URL = 'url'                             # URL for the course
 DESC = 'description'                    # A brief description about the course
-AUTHOR_NAME = 'name'                    # Name of the author/instructor
+AUTHOR_NAME = 'author'                    # Name of the author/instructor
 AUTHOR_ORG = 'organization'             # Designation and organization of the author
 
-# Sub-level JSON fields
-AUTHORS_SUB_JSON = 'authors'
-DATASETS_SUB_JSON = 'datasets-used'
-
 # Add-on fields
-ID = 'id'                               # Course ID as per the datacamp website
-AUTHOR_URL = 'url'                      # Page on author for the course
+ID = 'id'                               # Course ID as per the DataCamp website
+AUTHOR_URL = 'author-profile-url'       # Page on author for the course
 DURATION = 'duration'                   # Duration of the course
 EXERCISES = 'exercises'                 # Number of exercises
 VIDEOS = 'videos'                       # Number of videos
 PARTICIPANTS = 'participants'           # Number of participants who have taken this course
-DATASET_NAME = 'name'                   # Dataset name used in the course if any
-DATASET_URL = 'url'                     # CSV file of the Dataset
+DATASET_NAME = 'dataset-name'           # Dataset name used in the course if any
+DATASET_URL = 'dataset-url'             # CSV file of the Dataset
 CHAPTERS = 'chapters'                   # List of chapters or topics covered in the course
 
 
 # This function fetches the details about the authors/instructors
 def fetch_course_instructors(authors_divs):
-    authors_list = list()
+    authors_name_list = list()
+    authors_org_list = list()
+    authors_url_list = list()
     author_count = 0
     for author in authors_divs:
-        author_dict = dict()
 
-        author_dict[AUTHOR_NAME] = author.find("h5", class_="course__instructor-name").string
-        author_dict[AUTHOR_ORG] = author.find("p", class_="course__instructor-occupation").string
-        author_dict[AUTHOR_URL] = SITE_PREFIX + author.find("a")['href']
-
-        authors_list.append(author_dict)
+        authors_name_list.append(author.find("h5", class_="course__instructor-name").string)
+        authors_org_list.append(author.find("p", class_="course__instructor-occupation").string)
+        authors_url_list.append(SITE_PREFIX + author.find("a")['href'])
 
         author_count += 1
 
         if author_count == len(authors_divs)/2:
             break
 
-    return authors_list
+    return authors_name_list, authors_org_list, authors_url_list
 
 
 # This function fetches details about the datasets being used the course
 def fetch_course_datasets(datasets_divs):
-    datasets_list = list()
+    datasets_name_list = list()
+    datasets_url_list = list()
     for dataset in datasets_divs:
-        dataset_dict = dict()
 
-        dataset_dict[DATASET_NAME] = dataset.find("a").get_text().strip()
-        dataset_dict[DATASET_URL] = dataset.find("a")['href']
+        datasets_name_list.append(dataset.find("a").get_text().strip())
+        datasets_url_list.append(dataset.find("a")['href'])
 
-        datasets_list.append(dataset_dict)
-
-    return datasets_list
+    return datasets_name_list, datasets_url_list
 
 
 # This function fetches the chapters or topics covered in the course
@@ -88,18 +81,24 @@ def fetch_course_nested_data(course_dict, course_url):
     nested_web_page = requests.get(course_url)
     nested_soup = BeautifulSoup(nested_web_page.content, 'html.parser')
 
-    course_dict[EXERCISES] = nested_soup.find("li", class_="header-hero__stat header-hero__stat--exercises")\
+    author_info = fetch_course_instructors(nested_soup.find_all("div", class_="course__instructor"))
+    course_dict[AUTHOR_NAME] = author_info[0]
+    course_dict[AUTHOR_ORG] = author_info[1]
+    course_dict[AUTHOR_URL] = author_info[2]
+
+    course_dict[DESC] = nested_soup.find("p", class_="course__description") \
+        .get_text()
+
+    course_dict[EXERCISES] = nested_soup.find("li", class_="header-hero__stat header-hero__stat--exercises") \
         .get_text().split(" ")[0]
     course_dict[VIDEOS] = nested_soup.find("li", class_="header-hero__stat header-hero__stat--videos") \
         .get_text().split(" ")[0]
     course_dict[PARTICIPANTS] = nested_soup.find("li", class_="header-hero__stat header-hero__stat--participants") \
         .get_text().split(" ")[0]
-    course_dict[DESC] = nested_soup.find("p", class_="course__description") \
-        .get_text()
 
-    course_dict[AUTHORS_SUB_JSON] = fetch_course_instructors(nested_soup.find_all("div", class_="course__instructor"))
-
-    course_dict[DATASETS_SUB_JSON] = fetch_course_datasets(nested_soup.find_all("li", class_="course__dataset"))
+    dataset_info = fetch_course_datasets(nested_soup.find_all("li", class_="course__dataset"))
+    course_dict[DATASET_NAME] = dataset_info[0]
+    course_dict[DATASET_URL] = dataset_info[1]
 
     course_dict[CHAPTERS] = fetch_course_chapters(nested_soup.find_all("h4", class_="chapter__title"))
 
@@ -108,11 +107,10 @@ def fetch_course_nested_data(course_dict, course_url):
 def fetch_course_data(article_div):
     course_dict = dict()
     course_dict[ID] = article_div['data-id']
-    course_dict[URL] = SITE_PREFIX + article_div.div.a['href']
     course_dict[TITLE] = article_div.find("h4", class_="course-block__title").string
     course_dict[DURATION] = article_div.find("span", class_="course-block__length").get_text().strip()
 
-    fetch_course_nested_data(course_dict, course_dict[URL])
+    fetch_course_nested_data(course_dict, SITE_PREFIX + course_article.div.a['href'])
 
     return course_dict
 
@@ -136,7 +134,7 @@ if __name__ == '__main__':
     courses_dict = dict()
     # Iterate over every course article
     for course_article in courses_articles:
-        courses_dict['course-'+course_article['data-id']+'-info'] = fetch_course_data(course_article)
+        courses_dict[SITE_PREFIX + course_article.div.a['href']] = fetch_course_data(course_article)
 
         courses_count += 1
         if COURSES_TO_SCRAPE != -1 and courses_count > COURSES_TO_SCRAPE:
@@ -155,6 +153,6 @@ if __name__ == '__main__':
     }
 
     with open('Sarvesh_Parab_Task2_data.json', 'w') as fw:
-        json.dump(data_dict, fw, sort_keys=True, indent=4)
+        json.dump(data_dict, fw, indent=4)
 
 
