@@ -153,6 +153,6 @@ if __name__ == '__main__':
     }
 
     with open('Sarvesh_Parab_Task2_data.json', 'w') as fw:
-        json.dump(data_dict, fw, indent=4)
+        json.dump(courses_dict, fw, indent=4)
 
 
