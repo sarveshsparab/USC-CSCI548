@@ -16,15 +16,19 @@ csv_writer = csv.writer(out_fh, delimiter=',')
 with open(INPUT_FILE) as json_file:
     youtube_json_data = json.load(json_file)
 
+net_urls_found = 0
+
 for youtube_url in youtube_json_data:
     youtube_desc = youtube_json_data[youtube_url]['description']
     url_pattern = re.compile(REGEX_PATTERN)
     matched_urls = url_pattern.findall(youtube_desc)
 
-    print(youtube_url + " - " + len(matched_urls))
+    print(youtube_url + " - " + str(len(matched_urls)))
+    net_urls_found += len(matched_urls)
 
     for url in matched_urls:
         csv_writer.writerow([youtube_url, REGEX_PATTERN, ''.join(url)])
 
-
+print("-------------------------------------------------")
+print("Total Urls Fetched : " + str(net_urls_found))
 
