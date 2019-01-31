@@ -20,6 +20,9 @@ for youtube_url in youtube_json_data:
     youtube_desc = youtube_json_data[youtube_url]['description']
     url_pattern = re.compile(REGEX_PATTERN)
     matched_urls = url_pattern.findall(youtube_desc)
+
+    print(youtube_url + " - " + len(matched_urls))
+
     for url in matched_urls:
         csv_writer.writerow([youtube_url, REGEX_PATTERN, ''.join(url)])
 
