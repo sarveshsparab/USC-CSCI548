@@ -1,6 +1,7 @@
-23,https://www.youtube.com/watch?v=0kgEjAAjxM8,Fuzzy logic introduction. Fuzzy Set Theory.
-30,https://www.youtube.com/watch?v=15CzplT3A9k,Ejemplo de vincular cubos OLAP de OMNIUM con MS Excel sin necesidad de acceder a la base de datos.
-43,https://www.youtube.com/watch?v=2112ylDx7zs,"HCIR 2011
+counter,video_id,URL,Desc, ,Predicted type,Extracted Instance,True Instance,True type,Classification
+1,23,https://www.youtube.com/watch?v=0kgEjAAjxM8,Fuzzy logic introduction. Fuzzy Set Theory., ,-,-,-,-,-
+2,30,https://www.youtube.com/watch?v=15CzplT3A9k,Ejemplo de vincular cubos OLAP de OMNIUM con MS Excel sin necesidad de acceder a la base de datos., ,-,-,-,-,-
+3,43,https://www.youtube.com/watch?v=2112ylDx7zs,"HCIR 2011
 The Fifth Workshop on Human-Computer Interaction and Information Retrieval
 October 20, 2011
 Mountain View, CA
@@ -9,10 +10,10 @@ Morning Session
 Presentations I
 
 more info at:
-http://hcir.info/hcir-2011"
-45,https://www.youtube.com/watch?v=2GXIOrWbsCQ,OLAP in Urdu/hindi
-66,https://www.youtube.com/watch?v=31xohxLERTc,This webinar illustrates what dimensions are in Dynamics NAV and when to use them vs an OLAP cube
-69,https://www.youtube.com/watch?v=3COD45zhtX0,"Understanding OLAP Cubes - TechNet - Microsoft
+http://hcir.info/hcir-2011", ,-,-,-,-,-
+4,45,https://www.youtube.com/watch?v=2GXIOrWbsCQ,OLAP in Urdu/hindi, ,-,-,-,-,-
+5,66,https://www.youtube.com/watch?v=31xohxLERTc,This webinar illustrates what dimensions are in Dynamics NAV and when to use them vs an OLAP cube, ,-,-,-,-,-
+6,69,https://www.youtube.com/watch?v=3COD45zhtX0,"Understanding OLAP Cubes - TechNet - Microsoft
 Analysis Services in Business Intelligence Development ...
 Create First OLAP Cube in SQL Server Analysis Services ...
 SQL Server Business Intelligence Features - Creating a ...
@@ -41,13 +42,19 @@ Cube List empty : XMLA OLAP connection to SQL Server 2018 R
 SQL Server Developer ETL Bi Reporting Olap Cube ...
 Foundations of SQL Server 2008 R2 Business Intelligence
 OLAP Cubes | Data Visualization
-SQL Server Training - Purple Frog Systems - The Data ..."
-102,https://www.youtube.com/watch?v=5U3EnfiKs44,"We use ""SaasBase Analytics"" to incrementally process large heterogeneous data sets into pre-aggregated, indexed views, stored in HBase to be queried in realtime. The requirement we started from was to get large amounts of data available in near realtime (minutes) to large amounts of users for large amounts of (different) queries that take milliseconds to execute. This set our problem apart from classical solutions such as Hive and PIG. In this talk I`ll go through the design of the solution and the strategies (and hacks) to achieve low latency and scalability from theoretical model to the entire process of ETL to warehousing and queri"
-123,https://www.youtube.com/watch?v=766wp1lXenw,Video taken during the Easter Vigil Mass at the Our Lady of Annunciation Parish & Shrine of Incarnation
-136,https://www.youtube.com/watch?v=7dxIPowxg3k,Patent Information viewing in USPTO's PAIR portal and patent searching in USPTO. PAIR is an important tool to get information regarding the patent or patent application. in given video is simple patent number search and retrieval of information in PAIR. Will soon going to upload a tutorial regarding Image File Wrapper tool in PAIR.
-156,https://www.youtube.com/watch?v=8wzihMxhwcc,Difference between olap and oltp
-172,https://www.youtube.com/watch?v=9t47SO1pBhU,Visit us at http://www.sap.com/LearnBI to view our full catalog of interactive SAP BusinessObjects BI Suite tutorials.
-174,https://www.youtube.com/watch?v=AAgKfvbH7ds,"HCIR 2011
+SQL Server Training - Purple Frog Systems - The Data ...", ,Organization,R2 Business Intelligence,Microsoft,Organization,FP
+,,,,,Organization,,Microsoft,Organization,FN
+,,,,,Organization,,Microsoft,Organization,FN
+,,,,,Organization,,Microsoft,Organization,FN
+,,,,,Organization,,Microsoft,Organization,FN
+,,,,,Organization,,Microsoft,Organization,FN
+,,,,,Organization,,Wikipedia,Organization,FN
+7,102,https://www.youtube.com/watch?v=5U3EnfiKs44,"We use ""SaasBase Analytics"" to incrementally process large heterogeneous data sets into pre-aggregated, indexed views, stored in HBase to be queried in realtime. The requirement we started from was to get large amounts of data available in near realtime (minutes) to large amounts of users for large amounts of (different) queries that take milliseconds to execute. This set our problem apart from classical solutions such as Hive and PIG. In this talk I`ll go through the design of the solution and the strategies (and hacks) to achieve low latency and scalability from theoretical model to the entire process of ETL to warehousing and queri", ,-,-,-,-,-
+8,123,https://www.youtube.com/watch?v=766wp1lXenw,Video taken during the Easter Vigil Mass at the Our Lady of Annunciation Parish & Shrine of Incarnation, ,-,-,-,-,-
+9,136,https://www.youtube.com/watch?v=7dxIPowxg3k,Patent Information viewing in USPTO's PAIR portal and patent searching in USPTO. PAIR is an important tool to get information regarding the patent or patent application. in given video is simple patent number search and retrieval of information in PAIR. Will soon going to upload a tutorial regarding Image File Wrapper tool in PAIR., ,-,-,-,-,-
+10,156,https://www.youtube.com/watch?v=8wzihMxhwcc,Difference between olap and oltp, ,-,-,-,-,-
+11,172,https://www.youtube.com/watch?v=9t47SO1pBhU,Visit us at http://www.sap.com/LearnBI to view our full catalog of interactive SAP BusinessObjects BI Suite tutorials., ,Company ,Oracle,Orcale,Organization,?????????
+12,174,https://www.youtube.com/watch?v=AAgKfvbH7ds,"HCIR 2011
 The Fifth Workshop on Human-Computer Interaction and Information Retrieval
 October 20, 2011
 Mountain View, CA
@@ -56,42 +63,54 @@ Afternoon Session
 Presentations II
 
 more info at:
-http://hcir.info/hcir-2011"
-175,https://www.youtube.com/watch?v=AC1cLmbXcqA,This video provides the working of basic OLAP operations.
-178,https://www.youtube.com/watch?v=ANVwKmSPZcc,Optimizing and analyzing SQL queries.  Compare OLAP to OLTP performance using Microsoft SQL 2008 R2.  Shows how to analyze queries by setting statistics IO on to count the number of pages read.
-189,https://www.youtube.com/watch?v=Af-vfQ7XSKs,"Apologies, a small section of this talk is missing due to changing battery.
+http://hcir.info/hcir-2011", ,-,-,-,-,-
+13,175,https://www.youtube.com/watch?v=AC1cLmbXcqA,This video provides the working of basic OLAP operations., ,-,-,-,-,-
+14,178,https://www.youtube.com/watch?v=ANVwKmSPZcc,Optimizing and analyzing SQL queries.  Compare OLAP to OLTP performance using Microsoft SQL 2008 R2.  Shows how to analyze queries by setting statistics IO on to count the number of pages read., ,Company ,Microsoft,Microsoft,Organization,?????????
+15,189,https://www.youtube.com/watch?v=Af-vfQ7XSKs,"Apologies, a small section of this talk is missing due to changing battery.
 
 I will give a short introduction to GraphChi and its collaborative filtering toolkit.  I will also discuss shortly GraphChi-DB, my recent project that combines analytical computation with online database functionality for extremely large graphs. GraphChi [Kyrola et. al., OSDI 2012] is a disk-based system for large-scale graph computation that is able to handle graphs with billions of nodes and edges, on just a laptop or PC.  GraphChi has become a popular platform for research in recommender algorithms thanks to the comprehensive collaborative filtering toolkit developed by Danny Bickson, and its ability to solve very large problems with limited amount of RAM - thus saving practitioners hurdles of using distributed computation.
 
 Aapo Kyrola earned his PhD from the Carnegie Mellon University in 2014, advised by prof. Carlos Guestrin and Guy Blelloch.  His thesis proposes  GraphChi and GraphChi-DB, popular software for doing large-scale graph analytics on just a laptop, based on novel algorithms for disk-based management of graphs. Prior to joining CMU, Aapo co-founded a pioneering virtual world startup Habbo Hotel (www.habbo.com) in 2000, which has attracted hundreds of millions of users and generated tens of millions of dollars of annual revenue. In 2012, he co-founded another startup that developed the automatic activity tracker app Moves. Moves was chosen by both Apple and Google as one of the best apps of 2013.  Moves was acquired by Facebook in 2014, and Aapo now works as a software engineer at its London office.
 
-http://datasciencelondon.org"
-236,https://www.youtube.com/watch?v=D-uSIKAIJ2M,"The third means of establishing a dynamic PowerOLAP-Excel connection is OLAPPivot. The OLAPPivot setting creates, within your Excel spreadsheet, a sophisticated array of data that you are able to pivot (i.e., rearrange) data in countless ways and on which you can create sophisticated data constraints in order to customize the spreadsheet view (for example, at the least to dynamically eliminate zero rows or columns). These can be accomplished within Excel—giving Excel users many features for creating meaningful reports and analyses.  In sum, it puts advanced PowerOLAP features ""at the fingertips"" of Excel users, also enabling them to do ""on the fly"" functions to create a spreadsheet view.
+http://datasciencelondon.org", ,Organization,Carnegie Mellon University,Carnegie Mellon University,Organization,TP
+,,,,,Person,Guy Blelloch,Guy Blelloch,Person,TP
+,,,,,Person,Danny Bickson,Danny Bickson,Person,TP
+,,,,,Company ,Microsoft,Microsoft,Organization,?????????
+,,,,,Company ,Apple,Apple,Organization,?????????
+,,,,,Company ,Facebook,Facebook,Organization,?????????
+,,,,,Person,Carlos Guestrin,Carlos Guestrin,Person,TP
+,,,,,Person,,Aapo Kyrola,Person,FN
+16,236,https://www.youtube.com/watch?v=D-uSIKAIJ2M,"The third means of establishing a dynamic PowerOLAP-Excel connection is OLAPPivot. The OLAPPivot setting creates, within your Excel spreadsheet, a sophisticated array of data that you are able to pivot (i.e., rearrange) data in countless ways and on which you can create sophisticated data constraints in order to customize the spreadsheet view (for example, at the least to dynamically eliminate zero rows or columns). These can be accomplished within Excel—giving Excel users many features for creating meaningful reports and analyses.  In sum, it puts advanced PowerOLAP features ""at the fingertips"" of Excel users, also enabling them to do ""on the fly"" functions to create a spreadsheet view.
 
 OLAPPivot, like OLAPTable, shows an array of Fact Data, extending that method by dynamically building/modifying the rows and columns in Excel. OLAPPivot dynamically builds data ranges in Excel based on the user-selected PowerOLAP and Excel settings; so, for example, when a ""delete empty rows"" selection is made, later, when Cube data changes to affect that constraint, a row will be inserted to show new data.
 
-The pivoting function, which changes the axes between rows and columns, has the same performance and speed features of OLAPTable. Because OLAPPivot presides over all rows and columns in its array—as with OLAPTable—OLAPPivot is not appropriate if you need to insert blank rows and columns into the array or use an Excel formula within a cell in the array."
-250,https://www.youtube.com/watch?v=E1cw6udR-7o,IN4314 Seminar Selected Topics in Multimedia Computing (2013-2014 Q3) at Delft University of Technology. Survey talk on the topic of Sentiment analysis techniques for recommender systems.
-269,https://www.youtube.com/watch?v=FjKaRU5V1Rw,"Copyright 2013 IBM Corporation. All rights reserved. IBM, the IBM logo, Cognos, the Cognos logo and other IBM products and services are trademarks of International Business Machines Corporation in the United States, other countries, or both. Excel, Internet Explorer, PowerPoint, SharePoint and Windows are registered trademarks of Microsoft Corporation. Mozilla, the Mozilla logo, Firefox and the Firefox logo are registered trademarks of Mozilla Corporation. Other company, product or service names may be trademarks or service marks of others. iPad® and Apple® are registered trademarks of Apple Inc. The information contained in this video is provided for informational purposes only, and is provided AS IS without warranty of any kind, express or implied. IBM shall not be responsible for any damages arising out of the use of, or otherwise related to, these materials. Nothing contained in these materials is intended to, nor shall have the effect of, creating any warranties or representations from IBM or its suppliers or licensors, or altering the terms and conditions of the applicable license agreement governing the use of IBM software. References in these materials to IBM products, programs, or services do not imply that they will be available in all countries in which IBM operates. Product release dates and/or capabilities referenced in these materials may change at any time at IBM's sole discretion based on market opportunities or other factors, and are not intended to be a commitment to future product or feature availability in any way. Sample data is used in this video to develop sample applications of the IBM Program. These records may contain fictional data manually or machine generated, or factual data compiled from academic or public sources, or data used with permission of the copyright holder. These fictitious records include sample data for sales transactions, product distribution, finance, and human resources. Any resemblance to actual names, addresses, contact numbers, or transaction values is coincidental. Other sample files may contain fictional data manually or machine generated, factual data compiled from academic or public sources, or data used with permission of the copyright holder, for use as sample data to develop sample applications. Product names referenced may be the trademarks of their respective owners. Unauthorized duplication is prohibited."
-271,https://www.youtube.com/watch?v=Fm8yLLltZX8,"ATTENTION!! SEDIKIT TAMBAHAN SEBELUM MEMBUAT TABLE OUTPUT SEBAIKNYA TEMAN-TEMAN SHARE TERLEBIH DAHULU DATABASENYA DIDALAM DATABASE CONNECTIONS JIKA BERHASIL MAKA NAMA DATABASENYA AKAN MENJADI TEBAL (BOLD)..... TERIMAKASIH
+The pivoting function, which changes the axes between rows and columns, has the same performance and speed features of OLAPTable. Because OLAPPivot presides over all rows and columns in its array—as with OLAPTable—OLAPPivot is not appropriate if you need to insert blank rows and columns into the array or use an Excel formula within a cell in the array.", ,-,-,-,-,-
+17,250,https://www.youtube.com/watch?v=E1cw6udR-7o,IN4314 Seminar Selected Topics in Multimedia Computing (2013-2014 Q3) at Delft University of Technology. Survey talk on the topic of Sentiment analysis techniques for recommender systems., ,Organization,Delft University of Technology,Delft University of Technology,Organization,TP
+18,269,https://www.youtube.com/watch?v=FjKaRU5V1Rw,"Copyright 2013 IBM Corporation. All rights reserved. IBM, the IBM logo, Cognos, the Cognos logo and other IBM products and services are trademarks of International Business Machines Corporation in the United States, other countries, or both. Excel, Internet Explorer, PowerPoint, SharePoint and Windows are registered trademarks of Microsoft Corporation. Mozilla, the Mozilla logo, Firefox and the Firefox logo are registered trademarks of Mozilla Corporation. Other company, product or service names may be trademarks or service marks of others. iPad® and Apple® are registered trademarks of Apple Inc. The information contained in this video is provided for informational purposes only, and is provided AS IS without warranty of any kind, express or implied. IBM shall not be responsible for any damages arising out of the use of, or otherwise related to, these materials. Nothing contained in these materials is intended to, nor shall have the effect of, creating any warranties or representations from IBM or its suppliers or licensors, or altering the terms and conditions of the applicable license agreement governing the use of IBM software. References in these materials to IBM products, programs, or services do not imply that they will be available in all countries in which IBM operates. Product release dates and/or capabilities referenced in these materials may change at any time at IBM's sole discretion based on market opportunities or other factors, and are not intended to be a commitment to future product or feature availability in any way. Sample data is used in this video to develop sample applications of the IBM Program. These records may contain fictional data manually or machine generated, or factual data compiled from academic or public sources, or data used with permission of the copyright holder. These fictitious records include sample data for sales transactions, product distribution, finance, and human resources. Any resemblance to actual names, addresses, contact numbers, or transaction values is coincidental. Other sample files may contain fictional data manually or machine generated, factual data compiled from academic or public sources, or data used with permission of the copyright holder, for use as sample data to develop sample applications. Product names referenced may be the trademarks of their respective owners. Unauthorized duplication is prohibited.", ,Company,Microsoft Corporation,Microsoft Corporation,Organization,?????????
+,,,,,Company,cognos,cognos,Organization,?????????
+,,,,,Company,Mozilla Corporation,Mozilla Corporation,Organization,?????????
+,,,,,Company,Apple Inc.,Apple Inc.,Organization,?????????
+,,,,,Company,INTERNATIONAL BUSINESS MACHINES CORPORATION,INTERNATIONAL BUSINESS MACHINES CORPORATION,Organization,?????????
+,,,,,Organization,,IBM,Organization,FN
+19,271,https://www.youtube.com/watch?v=Fm8yLLltZX8,"ATTENTION!! SEDIKIT TAMBAHAN SEBELUM MEMBUAT TABLE OUTPUT SEBAIKNYA TEMAN-TEMAN SHARE TERLEBIH DAHULU DATABASENYA DIDALAM DATABASE CONNECTIONS JIKA BERHASIL MAKA NAMA DATABASENYA AKAN MENJADI TEBAL (BOLD)..... TERIMAKASIH
 
 
-Business Intelegence Pentaho Data Intergration OLTP TO OLAP Biar tidak lupa materi kuliah :)"
-273,https://www.youtube.com/watch?v=G18YECWHlaw,"This is part 1 of an introductory OLAP Data Modelling lecture. I suggest you know a bit about Data warehouse theory, and use this video to reinforce and clarify concepts regarding it.
+Business Intelegence Pentaho Data Intergration OLTP TO OLAP Biar tidak lupa materi kuliah :)", ,Organization,Tutorial Business Intelligence,,Organization,FP
+20,273,https://www.youtube.com/watch?v=G18YECWHlaw,"This is part 1 of an introductory OLAP Data Modelling lecture. I suggest you know a bit about Data warehouse theory, and use this video to reinforce and clarify concepts regarding it.
 
-Part 2: https://youtu.be/PIiXUMGtNGM"
-277,https://www.youtube.com/watch?v=GGF4NExzZSw,"A part of the defense of my PhD thesis - Bari, 8 June 2012
-http://www.di.uniba.it/~swap/index.php?n=Membri.CataldoMusto"
-287,https://www.youtube.com/watch?v=H7oAofuZjjE,"Recall always increases with rank and is typically concave. Precision usually decreases with ranks and is typically convex. The crossover point is where precision and recall intersect, and is often (but not always) the point where the F-measure is maximised."
-304,https://www.youtube.com/watch?v=I9g-VGoYb-c,"Hello friends in this video i have talked on OLAP models. Like ROLAP , MOLAP , DOLAP and HOLAP."
-306,https://www.youtube.com/watch?v=IOVrVOacLP8,Visit http://julialang.org/ to download Julia.
-310,https://www.youtube.com/watch?v=IYAwvp4Odbs,"**
+Part 2: https://youtu.be/PIiXUMGtNGM", ,-,-,-,-,-
+21,277,https://www.youtube.com/watch?v=GGF4NExzZSw,"A part of the defense of my PhD thesis - Bari, 8 June 2012
+http://www.di.uniba.it/~swap/index.php?n=Membri.CataldoMusto", ,-,-,-,-,-
+22,287,https://www.youtube.com/watch?v=H7oAofuZjjE,"Recall always increases with rank and is typically concave. Precision usually decreases with ranks and is typically convex. The crossover point is where precision and recall intersect, and is often (but not always) the point where the F-measure is maximised.", ,-,-,-,-,-
+23,304,https://www.youtube.com/watch?v=I9g-VGoYb-c,"Hello friends in this video i have talked on OLAP models. Like ROLAP , MOLAP , DOLAP and HOLAP.", ,-,-,-,-,-
+24,306,https://www.youtube.com/watch?v=IOVrVOacLP8,Visit http://julialang.org/ to download Julia., ,-,-,-,-,-
+25,310,https://www.youtube.com/watch?v=IYAwvp4Odbs,"**
 Eine Hausaufgabe für Information Retrieval von Ira Wegner, Laura Krüger und Lisa-Marie Verbücheln
 
 Studiengang: Informationswissenschaft & Sprachtechnologie
 Heinrich-Heine Universität (HHU) Düsseldorf
-**"
-338,https://www.youtube.com/watch?v=KTdJ661013s,"See application of OLAP to HEALTHCARE ANALYTICS  here:  http://youtu.be/koH9-qJKFIY
+**", ,Company,Alphabet Inc,Alphabet Inc,Organization,?????????
+26,338,https://www.youtube.com/watch?v=KTdJ661013s,"See application of OLAP to HEALTHCARE ANALYTICS  here:  http://youtu.be/koH9-qJKFIY
 
 http://www.amazon.com/Multidimensional-Data-Modeling-Toolkit-Intelligence/dp/0981775306/ref=sr_1_2?ie=UTF8&s=books&qid=1244129197&sr=1-2
 Get eBook or download star schema demo data and free Chapter 1 here:
@@ -106,15 +125,16 @@ http://www.linkedin.com/in/jparedespabi
 Don't use Oracle? Find out about Microsoft OLAP (SSAS) here:
 http://www.authorstream.com/Presentation/OLAP-264528-olap-world-gentle-introduction-ssas-business-intelligence-microsoft-olapworld-science-technology-ppt-powerpoint/
 
-Get a coffee mug for the office emblazoned with OLAP cartoons here: http://www.zazzle.com/businessintelligence/mugs#products,"
-341,https://www.youtube.com/watch?v=KiC0o2LvD1I,STPivot OLAP Viewer for Pentaho Mondrian
-403,https://www.youtube.com/watch?v=OJnhzHjcrl0,"Business Intelligence: OLAP und In Memory sind zwei Schlagworte, die im Business Intelligence Alltag sehr verbreitet sind. In dieser Video-Serie lernen Sie  die Grundkonzepte, Vorteile, Architekturen und konkrete Anwendungen in der Praxis, welche Business Intelligence Methode für Sie am geeignetsten ist und wie Sie in kurzer Zeit die richtige Business Intelligence Software auswählen sowie einführen können. Teil 1 beschäftigt sich mit OLAP.
+Get a coffee mug for the office emblazoned with OLAP cartoons here: http://www.zazzle.com/businessintelligence/mugs#products,", ,Company,Microsoft,Microsoft,Organization,?????????
+,,,,,Company,Oracle,Oracle,Organization,?????????
+27,341,https://www.youtube.com/watch?v=KiC0o2LvD1I,STPivot OLAP Viewer for Pentaho Mondrian, ,-,-,-,-,-
+28,403,https://www.youtube.com/watch?v=OJnhzHjcrl0,"Business Intelligence: OLAP und In Memory sind zwei Schlagworte, die im Business Intelligence Alltag sehr verbreitet sind. In dieser Video-Serie lernen Sie  die Grundkonzepte, Vorteile, Architekturen und konkrete Anwendungen in der Praxis, welche Business Intelligence Methode für Sie am geeignetsten ist und wie Sie in kurzer Zeit die richtige Business Intelligence Software auswählen sowie einführen können. Teil 1 beschäftigt sich mit OLAP.
 Hier mehr lesen und Fortsetzung abrufen:
-http://www.business-intelligence.org/business-intelligence-software/business-intelligence-olap-und-in-memory-die-booster-fur-ihr-reporting/"
-421,https://www.youtube.com/watch?v=PuIZCZ-5D7s,"A recommender system is an intelligent system that provides users series of personalized suggestions (recommendations) about a certain type of elements (items).
-In the video two types of complex recommendation systems are shown: argumentative systems and systems of structured sets:."
-423,https://www.youtube.com/watch?v=Pwp4p1iUs4I,Conozca la definición y aplicación del cubo Olap
-451,https://www.youtube.com/watch?v=Rpju2zrlabg,"DESARROLLO DE UNA APLICACION OLAP
+http://www.business-intelligence.org/business-intelligence-software/business-intelligence-olap-und-in-memory-die-booster-fur-ihr-reporting/", ,-,-,-,-,-
+29,421,https://www.youtube.com/watch?v=PuIZCZ-5D7s,"A recommender system is an intelligent system that provides users series of personalized suggestions (recommendations) about a certain type of elements (items).
+In the video two types of complex recommendation systems are shown: argumentative systems and systems of structured sets:.", ,-,-,-,-,-
+30,423,https://www.youtube.com/watch?v=Pwp4p1iUs4I,Conozca la definición y aplicación del cubo Olap,  ,-,-,-,-,-
+31,451,https://www.youtube.com/watch?v=Rpju2zrlabg,"DESARROLLO DE UNA APLICACION OLAP
 
 Integrantes:
 ALEX LLUMITAXI
@@ -136,10 +156,14 @@ POSTGRESQL,
 NETBEANS,
 SCHEMA WORKBENCH,
 MONDRIAN, - JPIVOT,
-JAVA, PENTAHO"
-454,https://www.youtube.com/watch?v=RxCGk_8ML6g,Introduction to research done at the intersection of Information Retrieval (IR) and ICT for Development (ICTD/ICT4D)
-463,https://www.youtube.com/watch?v=SWu6DHmGGXY,Se muestran los pasos necesarios para la correcta implementación de un cubo OLAP utilizando SQL SERVER como SGBD y BI-LITE CUBE.
-467,https://www.youtube.com/watch?v=SghMq1xBJPI,"SF Data Science Meetup presents ""Music Information Retrieval Using Locality Sensitive Hashing"" by Steve Tjoa.
+JAVA, PENTAHO", ,Person,ALEX LLUMITAXI,ALEX LLUMITAXI,Person,TP
+,,,,,Person,Diego Palacios,Diego Palacios,Person,TP
+,,,,,Person,"LLUMITAXI
+PAUL GAIBOR","LLUMITAXI
+PAUL GAIBOR",Person,TP
+32,454,https://www.youtube.com/watch?v=RxCGk_8ML6g,Introduction to research done at the intersection of Information Retrieval (IR) and ICT for Development (ICTD/ICT4D), ,-,-,-,-,-
+33,463,https://www.youtube.com/watch?v=SWu6DHmGGXY,Se muestran los pasos necesarios para la correcta implementación de un cubo OLAP utilizando SQL SERVER como SGBD y BI-LITE CUBE., ,-,-,-,-,-
+34,467,https://www.youtube.com/watch?v=SghMq1xBJPI,"SF Data Science Meetup presents ""Music Information Retrieval Using Locality Sensitive Hashing"" by Steve Tjoa.
 
 Music information retrieval (MIR) is an interdisciplinary field bridging the domains of statistics, signal processing, machine learning, musicology, biology, and more. MIR algorithms allow a computer to make sense of audio data in order to bridge the semantic gap between high-level musical information — e.g. tempo, key, pitch, instrumentation, chord progression, genre, song structure — and low-level audio data. In this talk, we will survey common research problems in MIR, including music fingerprinting, transcription, classification, and recommendation, and recently proposed solutions in the research literature. The talk will contain both a high-level overview as well as concrete examples of implementing MIR algorithms in Python using the IPython notebook. We will discuss concrete elements of prototyping an MIR system including data visualization, open-source tools, and evaluation.
 
@@ -154,15 +178,23 @@ Rackspace is dedicated to open source and open community. Join us at http://deve
 
 Follow @GeekdomSF for upcoming events and inquire about SF coworking membership at http://geekdomsf.com/
 
-Generously sponsored by O'Reilly Media. Special discount to Strata Conference  + Hadoop World in NYC this October for SF Data Science Members! Visit http://oreil.ly/UGSHW14 for details."
-495,https://www.youtube.com/watch?v=UoVLpoGMzYI,Difference between OLAP & OLTP in hindi
-507,https://www.youtube.com/watch?v=VTzK2_NQ85g,"SOLAP tool with rules for adapting map dynamically
-Developped by Sandro Bimonte and Ali Hassan"
-514,https://www.youtube.com/watch?v=VvGinSy5JPo,"Alti (http://www.alti.fr) from France is pleased to announce the release of two innovative projects based on the multi touch platform Microsoft Surface.
-Natural OLAP Data 3D Visualization: the subject was to find new ways of representations and manipulations of OLAP Data without using a keyboard or a mouse. It can be connected to any OLAP data provider."
-516,https://www.youtube.com/watch?v=WASE-jjSKr4,"Using the RadarCube's OLAP Creaion Wizard.
-Step 1: creating the measures"
-519,https://www.youtube.com/watch?v=WF32Gap_pVg,"BUILDING RECOMMENDER SYSTEMS WITH MACHINE LEARNING AND AI Part 5
+Generously sponsored by O'Reilly Media. Special discount to Strata Conference  + Hadoop World in NYC this October for SF Data Science Members! Visit http://oreil.ly/UGSHW14 for details.", ,Person,Steve Tjoa,Steve Tjoa,Person,TP
+,,,,,Company,Rackspace,Rackspace,Organization,?????????
+,,,,,Company,o'reilly media,o'reilly media,Organization,?????????
+,,,,,Company,iZotope,iZotope,Organization,?????????
+,,,,,Organization,Stanford University,Stanford University,Organization,TP
+,,,,,Organization,National Science Foundation,National Science Foundation,Organization,TP
+,,,,,Organization,Center for Computer Research,Center for Computer Research,Organization,TP
+35,495,https://www.youtube.com/watch?v=UoVLpoGMzYI,Difference between OLAP & OLTP in hindi, ,-,-,-,-,-
+36,507,https://www.youtube.com/watch?v=VTzK2_NQ85g,"SOLAP tool with rules for adapting map dynamically
+Developped by Sandro Bimonte and Ali Hassan", ,Person,Ali Hassan,Ali Hassan,Person,TP
+,,,,,Person,Sandro Bimonte,Sandro Bimonte,Person,TP
+37,514,https://www.youtube.com/watch?v=VvGinSy5JPo,"Alti (http://www.alti.fr) from France is pleased to announce the release of two innovative projects based on the multi touch platform Microsoft Surface.
+Natural OLAP Data 3D Visualization: the subject was to find new ways of representations and manipulations of OLAP Data without using a keyboard or a mouse. It can be connected to any OLAP data provider.", ,Company,Microsoft,Microsoft,Organization,?????????
+,,,,,Organization,,Alti,Organization,FN
+38,516,https://www.youtube.com/watch?v=WASE-jjSKr4,"Using the RadarCube's OLAP Creaion Wizard.
+Step 1: creating the measures", ,-,-,-,-,-
+39,519,https://www.youtube.com/watch?v=WF32Gap_pVg,"BUILDING RECOMMENDER SYSTEMS WITH MACHINE LEARNING AND AI Part 5
 
 What you’ll learn
 Understand and apply user-based and item-based collaborative filtering to recommend items to users
@@ -219,8 +251,12 @@ I hope to see you in the course soon!
 Who is the target audience?
 Software developers interested in applying machine learning and deep learning to product or content recommendations
 Engineers working at, or interested in working at large e-commerce or web companies
-Computer Scientists interested in the latest recommender system theory and research"
-537,https://www.youtube.com/watch?v=X8RnCX4wW88,"Speaker: Oliver Gindele, Data Scientist at Datatonic
+Computer Scientists interested in the latest recommender system theory and research", ,Person,Frank Kane,Frank Kane,Person,TP
+,,,,,Company,Netflix,Netflix,Organization,?????????
+,,,,,Company,AWS,AWS,Organization,?????????
+,,,,,Company,Amazon,Amazon,Organization,?????????
+,,,,,Company,YouTube,YouTube,Organization,?????????
+40,537,https://www.youtube.com/watch?v=X8RnCX4wW88,"Speaker: Oliver Gindele, Data Scientist at Datatonic
 
 Title: Recommender systems with TensorFlow
 
@@ -236,11 +272,13 @@ Seldon.io
 Altoros
 Rewired
 Google Developers
-Rise London"
-546,https://www.youtube.com/watch?v=XgBbPJJ1J-Q,"A short demo of a user's interaction session with the prototype of SpeechRec, a spoken natural-language conversational recommender system. Read more about SpeechRec: http://grasch.net/node/147
+Rise London", ,Person,Bio,,Person,FP
+,,,,,Person,Oliver Gindele,Oliver Gindele,Person,TP
+41,546,https://www.youtube.com/watch?v=XgBbPJJ1J-Q,"A short demo of a user's interaction session with the prototype of SpeechRec, a spoken natural-language conversational recommender system. Read more about SpeechRec: http://grasch.net/node/147
 
-For more information about the research behind SpeechRec, please refer to the paper ""P. Grasch and A. Felfernig. On the Importance of Subtext in Recommender Systems, icom, 14(1):41-52, 2015."" or the Master's thesis ""P. Grasch, Speech-based Recommender Systems"" available on http://grasch.net/presentations-publications"
-570,https://www.youtube.com/watch?v=ZC-opVtEoJA,"Curso Oracle PL/SQL Essentials
+For more information about the research behind SpeechRec, please refer to the paper ""P. Grasch and A. Felfernig. On the Importance of Subtext in Recommender Systems, icom, 14(1):41-52, 2015."" or the Master's thesis ""P. Grasch, Speech-based Recommender Systems"" available on http://grasch.net/presentations-publications", ,Person,,P. Grasch,Person,FN
+,,,,,Person,,A. Felfernig,Person,FN
+42,570,https://www.youtube.com/watch?v=ZC-opVtEoJA,"Curso Oracle PL/SQL Essentials
 http://bit.ly/1N3upVn
 
 Curso Oracle SQL Expert - Certificação 1Z0-047
@@ -262,9 +300,9 @@ sqlserver
 olap
 bi
 business intelligence
-oltp"
-602,https://www.youtube.com/watch?v=a0mhEtJ3Cmk,Aula de configuração do Knowage para receber xml do OLAP
-604,https://www.youtube.com/watch?v=a2i-lHS-c_I,"Fuzzy logic tutorials to understand the basic concept of fuzzy set and fuzzy set operations. How fuzzy set is different from traditional/binary logic.
+oltp", ,-,-,-,-,-
+43,602,https://www.youtube.com/watch?v=a0mhEtJ3Cmk,Aula de configuração do Knowage para receber xml do OLAP, ,-,-,-,-,-
+44,604,https://www.youtube.com/watch?v=a2i-lHS-c_I,"Fuzzy logic tutorials to understand the basic concept of fuzzy set and fuzzy set operations. How fuzzy set is different from traditional/binary logic.
 Understand membership function in fuzzy logic and understand the difference between crisp set and fuzzy set.
 Learn the basic representation of fuzzy sets.
 
@@ -293,8 +331,12 @@ Java Developer Course
 Check us out on Social media platforms like Facebook, Instagram, Google etc
 Facebook page - https://www.facebook.com/upskillinfotech/
 Insta page - https://www.instagram.com/upskill_infotech/
-Google Maps - https://goo.gl/maps/vjNtZazLzW82"
-615,https://www.youtube.com/watch?v=arcIwHEt3CA,"Subscribe today and give the gift of knowledge to yourself or a friend
+Google Maps - https://goo.gl/maps/vjNtZazLzW82", ,Company,Instagram,Instagram,Organization,?????????
+,,,,,Company,UpSkill,UpSkill,Organization,?????????
+,,,,,Company,Google,Google,Organization,?????????
+,,,,,Company,Facebook,Facebook,Organization,?????????
+,,,,,Organization,Coaching Centre for Information Technology,Coaching Centre for Information Technology,Organization,TP
+45,615,https://www.youtube.com/watch?v=arcIwHEt3CA,"Subscribe today and give the gift of knowledge to yourself or a friend
 information retrieval
 Information Retrieval.  Content.  Introduction to IR  Problem definition  Characteristics of text data  IR Models  Evaluation  Implementation  Text Classification  Web IR  Crawling  Link analysis.  Information Retrieval (IR).  The indexing and retrieval of textual documents. Slideshow 3034234 by wan
 show1 : Information retrieval
@@ -357,23 +399,22 @@ show29 : Graphic representation
 
 show30 : Document collection
 
-show31 : Term weights term frequency"
-618,https://www.youtube.com/watch?v=b51iuuTUPBo,Overview of SAP Analysis for OLAP by Jeremy Stierwalt
-630,https://www.youtube.com/watch?v=bVbVNF5JYwE,"A seminar presented at Oxford University's e-Research  Centre on 22 April 2016 by Dr. Xiao Hu, an Assistant Professor in the Division of Information and Technology Studies in the Faculty of Education of the University of Hong Kong.
+show31 : Term weights term frequency", ,-,-,-,-,-
+46,618,https://www.youtube.com/watch?v=b51iuuTUPBo,Overview of SAP Analysis for OLAP by Jeremy Stierwalt, ,Person,Jeremy Stierwalt,Jeremy Stierwalt,Person,TP
+47,630,https://www.youtube.com/watch?v=bVbVNF5JYwE,"A seminar presented at Oxford University's e-Research  Centre on 22 April 2016 by Dr. Xiao Hu, an Assistant Professor in the Division of Information and Technology Studies in the Faculty of Education of the University of Hong Kong.
 
-Music Information Retrieval (MIR), as an interdisciplinary area of research, has developed rapidly in the last decades. MIR research has been historically focusing on Western music and context, with few studies on issues and challenges related to non-Western music or users with a non-Western cultural background. In this talk, Dr Hu will present a series of studies on cross-cultural music mood recognition, including comparisons of mood perceptions between listeners from different cultural backgrounds, and cross-cultural generalizability of automatic music mood recognition models. She also talks about user-centered evaluation on complete MIR systems. - See more at: http://www.oerc.ox.ac.uk/events/cross-cultural-music-mood-recognition"
-661,https://www.youtube.com/watch?v=dRaTeTaHBsI,"Interviews with prominent experts in the field of information retrieval, internet search and text mining.
+Music Information Retrieval (MIR), as an interdisciplinary area of research, has developed rapidly in the last decades. MIR research has been historically focusing on Western music and context, with few studies on issues and challenges related to non-Western music or users with a non-Western cultural background. In this talk, Dr Hu will present a series of studies on cross-cultural music mood recognition, including comparisons of mood perceptions between listeners from different cultural backgrounds, and cross-cultural generalizability of automatic music mood recognition models. She also talks about user-centered evaluation on complete MIR systems. - See more at: http://www.oerc.ox.ac.uk/events/cross-cultural-music-mood-recognition", ,Person,Xiao Hu,Xiao Hu,Person,TP
+,,,,,Organization,Division of Information and Technology Studies,Division of Information and Technology Studies,Organization,TP
+,,,,,Organization,University of Hong Kong,University of Hong Kong,Organization,TP
+,,,,,Organization,Faculty of Education,,,########
+,,,,,Organization,Oxford University's e-Research Centre,Oxford University's e-Research Centre,Organization,TP
+48,661,https://www.youtube.com/watch?v=dRaTeTaHBsI,"Interviews with prominent experts in the field of information retrieval, internet search and text mining.
 Interviewer: Peter Kawinek
 
-www.matrixware.com"
-666,https://www.youtube.com/watch?v=ddOaljj66C8,Ejemplo sencillo de la creación de un cubo OLAP en MS SQL Server 2014 Enterprise
-672,https://www.youtube.com/watch?v=e1KHq2p2PM0,In diesem Video lernen Sie Online Analytical Processing (OLAP) kennen.
-679,https://www.youtube.com/watch?v=eMVeAzKpv8c,"This is the recording of Lecture 13 from the course ""Information Retrieval"", held on 30th January 2018 by Prof. Dr. Hannah Bast at the University of Freiburg, Germany.
-
-The discussed topics are: Natural Language Processing (NLP), Part-of-Speech Tagging, POS-Tagging, Named Entity Recognition, Named Entity Disambiguation, Hidden Markov Models (HMM), Markov Chain, Viterbi Algorithm.
-
-Link to the Wiki of the course:
-https://ad-wiki.informatik.uni-freiburg.de/teaching/InformationRetrievalWS1718
-
-Link to the homepage of our chair:
-https://ad.informatik.uni-freiburg.de/"
+www.matrixware.com", ,Person,Peter Kawinek,Peter Kawinek,Person,TP
+49,666,https://www.youtube.com/watch?v=ddOaljj66C8,Ejemplo sencillo de la creación de un cubo OLAP en MS SQL Server 2014 Enterprise, ,-,-,-,-,-
+50,672,https://www.youtube.com/watch?v=e1KHq2p2PM0,In diesem Video lernen Sie Online Analytical Processing (OLAP) kennen., ,-,-,-,-,-
+,,,, ,,,,,
+,,,, ,,,,,
+,,,, ,,,,,
+,,,, ,,,,,
