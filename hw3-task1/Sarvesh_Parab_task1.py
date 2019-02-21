@@ -1,5 +1,6 @@
 import json
 import csv
+import requests
 import urllib.parse
 
 INPUT_FILE = '../hw2-task2/Sarvesh_Parab_task2.csv'
@@ -22,8 +23,30 @@ with open(INPUT_FILE, 'r') as in_file:
         if row[1] == ENTITY:
             data_list.append(row[2])
 
+
+def query_api(api_url):
+    response = requests.get(api_url)
+    content = response.text
+    if response.status_code == 200:
+        return content
+    else:
+        return "ERROR"
+
+
 for ent in data_list:
     api_url = API_URL_PREFIX + urllib.parse.quote_plus(ent) + API_URL_SUFFIX
-    print(api_url)
+
+    try:
+        query_result = query_api(api_url)
+        query_result_json = json.loads(query_result)
+
+    except Exception as e:
+        print("Error in handling : " + ent)
+        print(e)
+
+    print(query_result_json)
+    break
+
+
 
 
