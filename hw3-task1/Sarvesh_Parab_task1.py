@@ -66,7 +66,6 @@ def get_best_match(ent, p_list):
     return max_val, max_entity
 
 
-count = 0
 for ent in data_list:
     log("--------------------------------------------------------------------------------------------")
     api_url = API_URL_PREFIX + urllib.parse.quote_plus(ent) + API_URL_SUFFIX
@@ -92,11 +91,3 @@ for ent in data_list:
     except Exception as e:
         log("Error in handling : " + ent)
         print(e)
-
-    count += 1
-    if count > 10:
-        break
-
-
-
-
