@@ -6,15 +6,13 @@ from nltk.metrics.distance import jaro_winkler_similarity
 
 INPUT_FILE = '../hw2-task2/Sarvesh_Parab_task2.csv'
 OUTPUT_FILE_1 = 'Sarvesh_Parab_task2_sim.csv'
-OUTPUT_FILE_2 = 'Sarvesh_Parab_task2_ground_truth.csv'
+
 LOG_FILE = 'log.txt'
 
 out_1_fh = open(OUTPUT_FILE_1, 'w', newline='')
-out_2_fh = open(OUTPUT_FILE_2, 'w', newline='')
 log_fh = open(LOG_FILE, 'w+', newline='')
 
 csv_writer_1 = csv.writer(out_1_fh, delimiter=',')
-csv_writer_2 = csv.writer(out_2_fh, delimiter=',')
 
 ENTITY = ["Organization", "Company"]
 
