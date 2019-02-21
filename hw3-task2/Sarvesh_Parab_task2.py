@@ -89,6 +89,8 @@ for ent in data_list:
         else:
             log("\tNo match for : " + ent + " found.")
 
+            csv_writer_1.writerow([ent, "N/A", "N/A", "N/A"])
+
     except Exception as e:
         log("Error in handling : " + ent)
         print(e)
