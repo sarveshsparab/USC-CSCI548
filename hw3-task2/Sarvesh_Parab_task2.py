@@ -1,12 +1,12 @@
-import json
+import xmltodict
 import csv
 import requests
 import urllib.parse
 from nltk.metrics.distance import jaro_winkler_similarity
 
 INPUT_FILE = '../hw2-task2/Sarvesh_Parab_task2.csv'
-OUTPUT_FILE_1 = 'Sarvesh_Parab_task1_sim.csv'
-OUTPUT_FILE_2 = 'Sarvesh_Parab_task1_ground_truth.csv'
+OUTPUT_FILE_1 = 'Sarvesh_Parab_task2_sim.csv'
+OUTPUT_FILE_2 = 'Sarvesh_Parab_task2_ground_truth.csv'
 LOG_FILE = 'log.txt'
 
 out_1_fh = open(OUTPUT_FILE_1, 'w', newline='')
@@ -16,17 +16,17 @@ log_fh = open(LOG_FILE, 'w+', newline='')
 csv_writer_1 = csv.writer(out_1_fh, delimiter=',')
 csv_writer_2 = csv.writer(out_2_fh, delimiter=',')
 
-ENTITY = "Person"
+ENTITY = ["Organization", "Company"]
 
-API_URL_PREFIX = "https://dblp.org/search/author/api?q="
-API_URL_SUFFIX = "&format=json"
+API_URL_PREFIX = "http://lookup.dbpedia.org/api/search.asmx/KeywordSearch?QueryClass=Organisation&QueryString="
+API_URL_SUFFIX = ""
 
 data_list = list()
 
 with open(INPUT_FILE, 'r') as in_file:
     reader = csv.reader(in_file)
     for row in reader:
-        if row[1] == ENTITY:
+        if row[1] in ENTITY:
             data_list.append(row[2])
 
 
@@ -44,11 +44,14 @@ def query_api(api_url):
         return "ERROR"
 
 
-def parse_result(q_json):
+def parse_result(q_xml):
     res = list()
-    if 'hit' in q_json['result']['hits'] and len(q_json['result']['hits']['hit']) > 0:
-        for hit in q_json['result']['hits']['hit']:
-            res.append((hit['info']['author'], hit['info']['url']))
+    if 'Result' in q_xml['ArrayOfResult'] and len(q_xml) > 0:
+        if isinstance(q_xml['ArrayOfResult']['Result'], list):
+            for x in q_xml['ArrayOfResult']['Result']:
+                res.append((x['Label'], x['URI']))
+        else:
+            res.append((q_xml['ArrayOfResult']['Result']['Label'], q_xml['ArrayOfResult']['Result']['URI']))
 
     return res
 
@@ -74,10 +77,10 @@ for ent in data_list:
 
     try:
         query_result = query_api(api_url)
-        query_result_json = json.loads(query_result)
-        log("\tJSON response : " + str(query_result_json))
+        query_result_xml = xmltodict.parse(query_result)
+        #log("\tXML response : " + str(query_result_xml))
 
-        parsed_result = parse_result(query_result_json)
+        parsed_result = parse_result(query_result_xml)
         log("\tParsed response : " + str(parsed_result))
 
         if len(parsed_result) > 0:
