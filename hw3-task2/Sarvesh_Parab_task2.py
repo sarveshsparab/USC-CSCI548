@@ -4,10 +4,15 @@ import requests
 import urllib.parse
 from nltk.metrics.distance import jaro_winkler_similarity
 
-INPUT_FILE = '../hw2-task2/Sarvesh_Parab_task2.csv'
-OUTPUT_FILE_1 = 'Sarvesh_Parab_task2_sim.csv'
+NA_FLAG = False
 
-LOG_FILE = 'log.txt'
+INPUT_FILE = '../hw2-task2/Sarvesh_Parab_task2.csv'
+if NA_FLAG:
+    OUTPUT_FILE_1 = 'Sarvesh_Parab_task2_sim_noNA.csv'
+    LOG_FILE = 'log_noNA.txt'
+else:
+    OUTPUT_FILE_1 = 'Sarvesh_Parab_task2_sim.csv'
+    LOG_FILE = 'log.txt'
 
 out_1_fh = open(OUTPUT_FILE_1, 'w', newline='')
 log_fh = open(LOG_FILE, 'w+', newline='')
@@ -76,20 +81,19 @@ for ent in data_list:
     try:
         query_result = query_api(api_url)
         query_result_xml = xmltodict.parse(query_result)
-        #log("\tXML response : " + str(query_result_xml))
 
         parsed_result = parse_result(query_result_xml)
-        log("\tParsed response : " + str(parsed_result))
 
         if len(parsed_result) > 0:
             best_match_sim, best_match_entity = get_best_match(ent, parsed_result)
-            log("\tBest match for : " + ent + "  =>  " + best_match_entity[0] + " [ " + str(best_match_sim) + " ]")
+            log("\tBest match for : " + ent + "  =>  " + str(best_match_entity[0])
+                + " [ " + str(best_match_sim) + " ]")
 
             csv_writer_1.writerow([ent, best_match_entity[0], best_match_entity[1], str(best_match_sim)])
         else:
             log("\tNo match for : " + ent + " found.")
-
-            csv_writer_1.writerow([ent, "N/A", "N/A", "N/A"])
+            if NA_FLAG:
+                csv_writer_1.writerow([ent, "N/A", "N/A", "N/A"])
 
     except Exception as e:
         log("Error in handling : " + ent)
