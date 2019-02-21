@@ -33,6 +33,15 @@ def query_api(api_url):
         return "ERROR"
 
 
+def parse_result(q_json):
+    res = list()
+    if 'hit' in q_json['result']['hits'] and len(q_json['result']['hits']['hit']) > 0:
+        for hit in q_json['result']['hits']['hit']:
+            res.append(hit['info']['author'])
+
+    return res
+
+
 for ent in data_list:
     api_url = API_URL_PREFIX + urllib.parse.quote_plus(ent) + API_URL_SUFFIX
 
@@ -40,12 +49,13 @@ for ent in data_list:
         query_result = query_api(api_url)
         query_result_json = json.loads(query_result)
 
+        parsed_result = parse_result(query_result_json)
+
     except Exception as e:
         print("Error in handling : " + ent)
         print(e)
 
-    print(query_result_json)
-    break
+    #break
 
 
 
