@@ -37,7 +37,7 @@ def parse_result(q_json):
     res = list()
     if 'hit' in q_json['result']['hits'] and len(q_json['result']['hits']['hit']) > 0:
         for hit in q_json['result']['hits']['hit']:
-            res.append(hit['info']['author'])
+            res.append((hit['info']['author'], hit['info']['url']))
 
     return res
 
@@ -50,7 +50,7 @@ for ent in data_list:
         query_result_json = json.loads(query_result)
 
         parsed_result = parse_result(query_result_json)
-
+        print(parsed_result)
     except Exception as e:
         print("Error in handling : " + ent)
         print(e)
