@@ -1,8 +1,16 @@
-Nicholson,A. Nicholson,https://dblp.org/pid/45/2343,0.9166666666666666
+Neville Sukhia,,,0
+Rohan Ramanna,,,0
+Nicholson,B. Nicholson,https://dblp.org/pid/34/10508,0.9166666666666666
+Eric Dubay,,,0
+Rob Skiba,,,0
+Tom Coffing,,,0
 Liang Zhang,Liang Zhang,https://dblp.org/pid/50/6759,1.0
+Peter Vaughn,,,0
 John Flanagan,John Flanagan,https://dblp.org/pid/194/0518,1.0
+Terry Gilliam,,,0
+Helpman,,,0
 Bio,Biodun S. Badmus,https://dblp.org/pid/154/3236,0.8104166666666667
-Daniel Gu,Daniel L. Guidoni,https://dblp.org/pid/86/4704,0.9058823529411764
+Daniel Gu,Daniel Guldenring,https://dblp.org/pid/118/5261,0.9058823529411764
 Omar Gutierrez,Omar Gutierrez,https://dblp.org/pid/233/3310,1.0
 Florian Krause,Florian Krause,https://dblp.org/pid/72/11171,1.0
 Ricardo Colomo-Palacios,Ricardo Colomo Palacios,https://dblp.org/pid/64/2561,0.9826086956521739
@@ -15,6 +23,7 @@ José Carlos Sánchez Prieto,José Carlos Sánchez Prieto,https://dblp.org/pid/137/9
 Ana M. Pinto,Ana María Pinto,https://dblp.org/pid/51/10903,0.9299999999999999
 Peter Sloep,Peter B. Sloep,https://dblp.org/pid/50/4110,0.9571428571428571
 Juarez da Silva,Juarez M. da Silva,https://dblp.org/pid/214/8799,0.9533333333333333
+Alejandro Carnicero,,,0
 María José Rodríguez-Conde,María José Rodriguez-Conde,https://dblp.org/pid/65/3213,0.9846153846153847
 Lucas Carlos,Lucas M. Carlos,https://dblp.org/pid/230/0025,0.96
 Lucía García Holgado,Lucía García Holgado,https://dblp.org/pid/230/0036,1.0
@@ -26,26 +35,40 @@ Sonia Verdugo Castro,Sonia Verdugo-Castro,https://dblp.org/pid/230/0055,0.98
 Juan Cruz-Benito,Juan Cruz-Benito,https://dblp.org/pid/137/9123,1.0
 Alicia García Holgado,Alicia García Holgado,https://dblp.org/pid/133/0862,1.0
 Laura Cardeñosa Tejedor,Laura Cardeñosa Tejedor,https://dblp.org/pid/152/8791,1.0
-Alexandre Gonçalves,Alexandre L. Gonçalves,https://dblp.org/pid/43/4251,0.9727272727272728
+Alejandro Rodríguez Díaz,,,0
+Alexandre Gonçalves,Alexandre B. Gonçalves,https://dblp.org/pid/85/8650,0.9727272727272728
 David Griffiths,David Griffiths,https://dblp.org/pid/10/6918,1.0
 Adriana Gamazo,Adriana Gamazo,https://dblp.org/pid/191/8620,1.0
 Lucía García-Holgado,Lucía García Holgado,https://dblp.org/pid/230/0036,0.98
 Francisco José García-Peñalvo,Francisco J. García-Peñalvo,https://dblp.org/pid/71/6979,0.9719029374201787
 Hannah Bast,Hannah Bast,https://dblp.org/pid/b/HannahBast,1.0
+Mahmoud Dhouibi,,,0
+Fathi Jemli,,,0
 Xing Xie,Xing Xie,https://dblp.org/pid/08/6809,1.0
 Giovanna Roda,Giovanna Roda,https://dblp.org/pid/70/7536,1.0
+Marc Daniau,,,0
 Andrew Ng,Andrew Y. Ng,https://dblp.org/pid/n/AndrewYNg,0.95
+"Comparison
+Join Diego Paz",,,0
 Wei-Ying Ma,Wei-Ying Ma,https://dblp.org/pid/m/WYMa,1.0
 Nicholas Jing Yuan,Nicholas Jing Yuan,https://dblp.org/pid/131/4855,1.0
 Xing Xie,Xing Xie,https://dblp.org/pid/08/6809,1.0
 Carlotta Schatten,Carlotta Schatten,https://dblp.org/pid/118/8235,1.0
 Yi Fang,Yi-Cho Fang,https://dblp.org/pid/166/2548,0.903030303030303
 Vinit Kumar,Vinit Kumar,https://dblp.org/pid/44/10220,1.0
+Anita Hillhouse,,,0
 Giovanna Roda,Giovanna Roda,https://dblp.org/pid/70/7536,1.0
+Frank Kane,,,0
 Andrew Ng,Andrew Y. Ng,https://dblp.org/pid/n/AndrewYNg,0.95
+Nur Ridhwah Ali,,,0
+Noor Faizura Ibrahim,,,0
+Amira Kamarulzaman,,,0
+Arnaud Delauney,,,0
 Rohan Verma,Rohan Verma,https://dblp.org/pid/178/8674,1.0
 Andrew Ng,Andrew Y. Ng,https://dblp.org/pid/n/AndrewYNg,0.95
 Geoffrey Hinton,Geoffrey E. Hinton,https://dblp.org/pid/10/3248,0.9666666666666667
+Elias-Delta Encoding,,,0
+Elias-Gamma Encoding,,,0
 Hannah Bast,Hannah Bast,https://dblp.org/pid/b/HannahBast,1.0
 Guy Blelloch,Guy E. Blelloch,https://dblp.org/pid/b/GEBlelloch,0.96
 Danny Bickson,Danny Bickson,https://dblp.org/pid/35/1070,1.0
@@ -53,65 +76,107 @@ Carlos Guestrin,Carlos Guestrin,https://dblp.org/pid/38/769,1.0
 Andrew Ng,Andrew Y. Ng,https://dblp.org/pid/n/AndrewYNg,0.95
 Mauricio Rivas,Andrés Mauricio Espinoza Rivas,https://dblp.org/pid/224/2218,0.6134920634920635
 Andy Pavlo,Andrew Pavlo,https://dblp.org/pid/58/4127,0.9183333333333333
+Bhaskar Reddy Baddam,,,0
 Bamshad Mobasher,Bamshad Mobasher,https://dblp.org/pid/01/4475,1.0
+Simon Tavasoli,,,0
 Xavier Serra,Xavier Serra,https://dblp.org/pid/01/2680,1.0
 Zia Babar,Zia Babar,https://dblp.org/pid/163/0232,1.0
+Igor Mazor,,,0
 Gerhard Weikum,Gerhard Weikum,https://dblp.org/pid/w/GerhardWeikum,1.0
 Andrew McCallum,Andrew McCallum,https://dblp.org/pid/m/AndrewMcCallum,1.0
 Bruce Croft,W. Bruce Croft,https://dblp.org/pid/c/WBruceCroft,0.8376623376623377
 Laura Dietz,Laura Dietz,https://dblp.org/pid/85/5754,1.0
 Tobias Scheffer,Tobias Scheffer,https://dblp.org/pid/s/TobiasScheffer,1.0
+Ken North,,,0
 Blake Jackson,Blake Jackson,https://dblp.org/pid/213/1752,1.0
+Chris Mount,,,0
 Hannah Bast,Hannah Bast,https://dblp.org/pid/b/HannahBast,1.0
+María de Maeztu,,,0
+Kim Falk Jørgensen,,,0
 Gopal Karemore,Gopal Karemore,https://dblp.org/pid/68/4640,1.0
+Philip Jarnus,,,0
 Roman Yurchak,Roman Yurchak,https://dblp.org/pid/203/8791,1.0
+MUHAMMAD ANDRY KURNIAWAN,,,0
+DAN SHARE,,,0
+Frank Kane,,,0
 Pooja Agarwal,Pooja Agarwal,https://dblp.org/pid/44/7903,1.0
 Mustafa Jarrar,Mustafa Jarrar,https://dblp.org/pid/j/MustafaJarrar,1.0
 Thorsten Joachims,Thorsten Joachims,https://dblp.org/pid/j/ThorstenJoachims,1.0
+Rey Magnaye,,,0
+Justin Pontino,,,0
 Michael D. Ekstrand,Michael D. Ekstrand,https://dblp.org/pid/69/7949,1.0
 Joseph A Konstan,Joseph A. Konstan,https://dblp.org/pid/09/3004,0.9882352941176471
+Edit Distance (Levenshtein Distance),,,0
 Hannah Bast,Hannah Bast,https://dblp.org/pid/b/HannahBast,1.0
 James She,James She,https://dblp.org/pid/98/4279,1.0
 Sergio Inzunza,Sergio Inzunza,https://dblp.org/pid/122/2165,1.0
+Mike van der Velden,,,0
 Dan Gillick,Daniel Gillick,https://dblp.org/pid/73/7157,0.8863636363636364
+KAY MARIANG INA NG OLAP,,,0
+"Santo
+Anak",,,0
+Gabriel kay Mariang,,,0
+Danny Mendiola,,,0
+Sam Tawfik,,,0
+Carlos - Mocha Geovanny,,,0
+Luis - Jimenez Carlos,,,0
 Michael D Ekstrand,Michael D. Ekstrand,https://dblp.org/pid/69/7949,0.9894736842105263
 Joseph A Konstan,Joseph A. Konstan,https://dblp.org/pid/09/3004,0.9882352941176471
 Martina Ziefle,Martina Ziefle,https://dblp.org/pid/90/6913,1.0
 Mustafa Jarrar,Mustafa Jarrar,https://dblp.org/pid/j/MustafaJarrar,1.0
+Terry Gilliam,,,0
 Vijay Kumar,Vijay Kumar Jha,https://dblp.org/pid/177/5815,0.9466666666666667
 "Gabriel Moreira
 Gabriel Moreira",Gabriel Gonçalves Moreira,https://dblp.org/pid/233/2890,0.8558648233486943
+Cara membuat,,,0
 Ian H. Witten,Ian H. Witten,https://dblp.org/pid/w/IanHWitten,1.0
 Marti Hearst,Marti A. Hearst,https://dblp.org/pid/h/MartiAHearst,0.96
 Alpa Jain,Alpa Jain,https://dblp.org/pid/68/6659,1.0
+Vincent Isoz,,,0
 Jason Hong,Jason Hong,https://dblp.org/pid/04/7125,1.0
+Nikita Ivanov,,,0
 Peter Zaitsev,Peter Zaitsev,https://dblp.org/pid/140/8716,1.0
 Iván Cantador,Iván Cantador,https://dblp.org/pid/29/791,1.0
 Paolo Tomeo,Paolo Tomeo,https://dblp.org/pid/151/6893,1.0
 Eugenio Di Sciascio,Eugenio Di Sciascio,https://dblp.org/pid/s/EugenioDiSciascio,1.0
 Lotfi Zadeh,Lotfi A. Zadeh,https://dblp.org/pid/z/LAZadeh,0.9571428571428571
+Ahsan Ashraf,,,0
 Mustafa Jarrar,Mustafa Jarrar,https://dblp.org/pid/j/MustafaJarrar,1.0
 Justin Basilico,Justin Basilico,https://dblp.org/pid/55/3673,1.0
+Misa Inmaculada Concepcion,,,0
+Concepcion - Alejandro Consolacion,,,0
+Justin Pontino,,,0
 Hannah Bast,Hannah Bast,https://dblp.org/pid/b/HannahBast,1.0
 Maria Clara,Maria Clara Fava,https://dblp.org/pid/151/4020,0.9375
 Peter Bloem,Peter Bloem,https://dblp.org/pid/151/0108,1.0
 Andy Pavlo,Andrew Pavlo,https://dblp.org/pid/58/4127,0.9183333333333333
-Chung Chen,Chung-Ho Chen,https://dblp.org/pid/28/5335,0.9538461538461538
+Chung Chen,Chung-Li Chen,https://dblp.org/pid/181/4005,0.9538461538461538
+ALEX LLUMITAXI,,,0
 Diego Palacios,Diego Palacios,https://dblp.org/pid/187/2288,1.0
+"LLUMITAXI
+PAUL GAIBOR",,,0
 Yuan Yao,Yuan Yao,https://dblp.org/pid/25/4120,1.0
-Jian Lu,Jian-bo Lu,https://dblp.org/pid/68/9922,0.9400000000000001
+Jian Lu,Jian-Yi Lu,https://dblp.org/pid/41/10698,0.9400000000000001
+Soraya Hausl,,,0
 Ryan Henry,Ryan Henry,https://dblp.org/pid/86/8283,1.0
+Cassandra Tutorial,,,0
+Anita Hillhouse,,,0
+Frank Kane,,,0
 Steve Tjoa,Steven K. Tjoa,https://dblp.org/pid/52/717,0.9428571428571428
 Leo Boytsov,Leonid Boytsov,https://dblp.org/pid/31/9869,0.95
 Nicola Montecchio,Nicola Montecchio,https://dblp.org/pid/94/7990,1.0
 Swaroop Krothapalli,Swaroop Krothapalli,https://dblp.org/pid/221/3421,1.0
+Michael Richard Plowman,,,0
 Olivier Grisel,Olivier Grisel,https://dblp.org/pid/86/10824,1.0
 Fabian Yamaguchi,Fabian Yamaguchi,https://dblp.org/pid/66/11094,1.0
+Cara membuat,,,0
 Andrew Ng,Andrew Y. Ng,https://dblp.org/pid/n/AndrewYNg,0.95
 Deepak Agarwal,Deepak Agarwal,https://dblp.org/pid/11/5430,1.0
 Xavier Amatriain,Xavier Amatriain,https://dblp.org/pid/99/6075,1.0
+Oleh Anindya Khrisna Wardhani,,,0
 Ali Hassan,Ali Hassan,https://dblp.org/pid/65/6722,1.0
 Sandro Bimonte,Sandro Bimonte,https://dblp.org/pid/87/3974,1.0
+Frank Kane,,,0
 Hannah Bast,Hannah Bast,https://dblp.org/pid/b/HannahBast,1.0
 George Furnas,George W. Furnas,https://dblp.org/pid/52/3166,0.9625
 Susan Dumais,Susan T. Dumais,https://dblp.org/pid/d/SusanTDumais,0.96
@@ -123,26 +188,60 @@ Scott Deerwester,Scott C. Deerwester,https://dblp.org/pid/12/553,0.9684210526315
 Katja Hofmann,Katja Hofmann,https://dblp.org/pid/97/3500,1.0
 Filip Radlinski,Filip Radlinski,https://dblp.org/pid/28/1966,1.0
 Bio,Biodun S. Badmus,https://dblp.org/pid/154/3236,0.8104166666666667
+Oliver Gindele,,,0
 Ryan Henry,Ryan Henry,https://dblp.org/pid/86/8283,1.0
+"Ryan Henry
+Presented",,,0
+Peter Kawinek,,,0
 Yusuf Kurnia,Yusuf Kurniawan,https://dblp.org/pid/05/7513,0.96
 Andrew Ng,Andrew Y. Ng,https://dblp.org/pid/n/AndrewYNg,0.95
+Adam Warski,,,0
+Rama Lama Ding Dong,,,0
+Dong - Rocky Sharpe,,,0
+Retrieval - Der Sputnikschock,,,0
+"Ray Dog
+Rama Lama Ding",,,0
+Der Sputnikschock,,,0
 Sarabjot Singh,Sarabjot Singh,https://dblp.org/pid/25/7912,1.0
+Elisa R. Díaz,,,0
+Radek Bartyzal,,,0
 Pavel Kordík,Pavel Kordík,https://dblp.org/pid/00/3917,1.0
+Ivan Povalyev,,,0
 Mauro Brunato,Mauro Brunato,https://dblp.org/pid/16/3468,1.0
+Oliver Gindele,,,0
 Daniel Wolff,Daniel Wolff,https://dblp.org/pid/43/10570,1.0
+Miro Kosecek,,,0
 David Burke,David Burke,https://dblp.org/pid/25/1041,1.0
+"David Burke
+Recorded",,,0
 Hannah Bast,Hannah Bast,https://dblp.org/pid/b/HannahBast,1.0
+Jeremy Stierwalt,,,0
 Andrew Ng,Andrew Y. Ng,https://dblp.org/pid/n/AndrewYNg,0.95
 Hannah Bast,Hannah Bast,https://dblp.org/pid/b/HannahBast,1.0
+Adrian Holovaty,,,0
 Russ Tront,Russell J. Tront,https://dblp.org/pid/39/3332,0.925
 Deepak Agarwal,Deepak Agarwal,https://dblp.org/pid/11/5430,1.0
-Xiao Hu,Xiaomin Hu,https://dblp.org/pid/93/4808,0.9400000000000001
+Xiao Hu,Xiao-bo Hu,https://dblp.org/pid/96/8352,0.9400000000000001
+Kelompok,,,0
 Mustafa Jarrar,Mustafa Jarrar,https://dblp.org/pid/j/MustafaJarrar,1.0
+Muhamad Alif Fathi Md Noor,,,0
+Mohib Ali Mowj,,,0
 Akram M. Zeki,Akram M. Zeki,https://dblp.org/pid/74/7486,1.0
+Liaqat Ali Rahimi,,,0
+María de Maeztu,,,0
+Jordi Bartolomé Guillen,,,0
+Larry Pearson,,,0
+Vineet Tyagi,,,0
 Daniel D. Gutierrez,Daniel Gutierrez,https://dblp.org/pid/121/5351,0.968421052631579
 Ajay Anand,Ajay Anand,https://dblp.org/pid/144/2852,1.0
 Andrew Ng,Andrew Y. Ng,https://dblp.org/pid/n/AndrewYNg,0.95
 Evan Chan,Evan Chan,https://dblp.org/pid/234/2797,1.0
+Cassandra Summit,,,0
+Daniel Pyrathon,,,0
+Misa Inmaculada Concepcion,,,0
+Concepcion - Alejandro Consolacion,,,0
+Justin Pontino,,,0
+Peter Kawinek,,,0
 Mustafa Jarrar,Mustafa Jarrar,https://dblp.org/pid/j/MustafaJarrar,1.0
 Thanh Th,Thanh Dinh,https://dblp.org/pid/62/11200,0.915
 Hannah Bast,Hannah Bast,https://dblp.org/pid/b/HannahBast,1.0
@@ -150,57 +249,108 @@ Michael Ekstrand,Michael D. Ekstrand,https://dblp.org/pid/69/7949,0.968421052631
 Michael D Ekstrand,Michael D. Ekstrand,https://dblp.org/pid/69/7949,0.9894736842105263
 Joseph Konstan,Joseph A. Konstan,https://dblp.org/pid/09/3004,0.9647058823529411
 Joseph A Konstan,Joseph A. Konstan,https://dblp.org/pid/09/3004,0.9882352941176471
+OLAP PRIDE,,,0
 Vinod Vaikuntanathan,Vinod Vaikuntanathan,https://dblp.org/pid/v/VinodVaikuntanathan,1.0
+Alexandre Hubert,,,0
 Antonio Gómez,Antonio Gómez,https://dblp.org/pid/82/1348,1.0
+Luis Vinces,,,0
+Josías Piña,,,0
+Stefan Novak,,,0
 Joe Ross,Joel Ross,https://dblp.org/pid/03/7495,0.9740740740740741
 Eamonn Keogh,Eamonn J. Keogh,https://dblp.org/pid/k/EamonnJKeogh,0.96
 Preeti Rao,Preeti Rao,https://dblp.org/pid/54/790,1.0
 Toni Giorgino,Toni Giorgino,https://dblp.org/pid/93/6633,1.0
+María de Maeztu,,,0
 Yves Raimond,Yves Raimond,https://dblp.org/pid/83/5530,1.0
 Neal Lathia,Neal Lathia,https://dblp.org/pid/25/499,1.0
 Michael Ekstrand,Michael D. Ekstrand,https://dblp.org/pid/69/7949,0.968421052631579
 Hannah Bast,Hannah Bast,https://dblp.org/pid/b/HannahBast,1.0
 Laxmidhar Behera,Laxmidhar Behera,https://dblp.org/pid/14/1412,1.0
 Andrew Ng,Andrew Y. Ng,https://dblp.org/pid/n/AndrewYNg,0.95
+Anita Hillhouse,,,0
+Anita Hillhouse,,,0
 Hannah Bast,Hannah Bast,https://dblp.org/pid/b/HannahBast,1.0
+Hadoop Administrators,,,0
 Jure Leskovec,Jure Leskovec,https://dblp.org/pid/l/JureLeskovec,1.0
 Muhammad Farhan,Muhammad Farhan,https://dblp.org/pid/62/10825,1.0
+Muhammad Ramdani,,,0
 Tim Hussein,Tim Hussein,https://dblp.org/pid/70/3558,1.0
 Benedikt Loepp,Benedikt Loepp,https://dblp.org/pid/136/6266,1.0
 Evan Chan,Evan Chan,https://dblp.org/pid/234/2797,1.0
+Cassandra Day Seattle,,,0
+"Eduardo Encalada
+aeencalada",,,0
+Ashok Pillar,,,0
+Anita Hillhouse,,,0
+Essbase,,,0
 Jürgen Dunkel,Jürgen Dunkel,https://dblp.org/pid/67/5088,1.0
+Semi Structured,,,0
+Unstructured Structured,,,0
 Hannah Bast,Hannah Bast,https://dblp.org/pid/b/HannahBast,1.0
 Liang Zhang,Liang Zhang,https://dblp.org/pid/50/6759,1.0
 Hector Garcia-Molina,Hector Garcia-Molina,https://dblp.org/pid/g/HGarciaMolina,1.0
 Dan Jurafsky,Daniel Jurafsky,https://dblp.org/pid/31/985,0.9533333333333333
 Chris Manning,Chris Manning,https://dblp.org/pid/92/6228,1.0
+Antoine Chambille,,,0
 Mando,Mandong Hu,https://dblp.org/pid/221/5922,0.8999999999999999
 Deepak Agarwal,Deepak Agarwal,https://dblp.org/pid/11/5430,1.0
 Maria Georgiou,Maria Georgiou,https://dblp.org/pid/225/1165,1.0
 Kalman Toth,Kalman C. Toth,https://dblp.org/pid/67/6707,0.9571428571428571
+Gaurav Nadkar,,,0
 Grant Ingersoll,Grant Ingersoll,https://dblp.org/pid/27/3996,1.0
 Fabio Crestani,Fabio Crestani,https://dblp.org/pid/c/FabioCrestani,1.0
+Giomar Antonio Giraldo,,,0
+Antonio Giraldo Huertas,,,0
+Oliver Gindele,,,0
 Steve Tjoa,Steven K. Tjoa,https://dblp.org/pid/52/717,0.9428571428571428
+Muhammad Efendi,,,0
+Mohamad Ridwan Sidik,,,0
+"Eduardo Castro
+http",,,0
+Marcel Kurovski,,,0
 Bart P. Knijnenburg,Bart P. Knijnenburg,https://dblp.org/pid/17/7457,1.0
 Katja Niemann,Katja Niemann,https://dblp.org/pid/37/1914,1.0
 Nicolas Schilling,Nicolas Schilling,https://dblp.org/pid/151/3315,1.0
 Luke Han,Hans Diete Lüke,https://dblp.org/pid/26/10925,0.5194444444444444
 Sean Riley,Sean Riley,https://dblp.org/pid/176/4493,1.0
+Brady Haran,,,0
+Tom Coffing,,,0
+"LAINEZ DANNY
+JENIFFER",,,0
+"DANNY
+JENIFFER ARENAS",,,0
 Cohen,A. Cohen,https://dblp.org/pid/94/6760,0.875
 Emilia Gómez,Emilia Gómez,https://dblp.org/pid/96/74,1.0
-Laurent,Laurent Ach,https://dblp.org/pid/26/3334,0.9272727272727272
-Jonathan,Jonathan Abbey,https://dblp.org/pid/71/6600,0.9142857142857141
+Musique,,,0
+Supervision,,,0
+Laurent,Laurent Alt,https://dblp.org/pid/79/6425,0.9272727272727272
+Jonathan,Jonathan Ailon,https://dblp.org/pid/196/2639,0.9142857142857141
+Misa Inmaculada Concepcion,,,0
+Concepcion - Alejandro Consolacion,,,0
+Justin Pontino,,,0
 Andrew Ng,Andrew Y. Ng,https://dblp.org/pid/n/AndrewYNg,0.95
 Giovanna Roda,Giovanna Roda,https://dblp.org/pid/70/7536,1.0
+Collin Burton,,,0
+"Eduardo Encalada
+aeencalada",,,0
+"PATERNINA
+LEONARDO SUAREZ",,,0
+JAIME GRACIA GONZALES,,,0
+"BALDOVINO
+JAIME GRACIA",,,0
+Guillaume Allain,,,0
 Gary M. Olson,Gary M. Olson,https://dblp.org/pid/o/GaryMOlson,1.0
 Joseph A. Konstan,Joseph A. Konstan,https://dblp.org/pid/09/3004,1.0
 Judy Olson,Judy Olson,https://dblp.org/pid/61/911,1.0
 Sandeep Patil,Sandeep Patil,https://dblp.org/pid/53/5535,1.0
-Xiang Li,Xiang-Yu Li,https://dblp.org/pid/219/2472,0.9454545454545455
+Xiang Li,Xiangxue Li,https://dblp.org/pid/69/3527,0.9454545454545455
 Jie He,Jie He,https://dblp.org/pid/28/4019,1.0
 Muhammad Firmansyah,Muhammad Firmansyah,https://dblp.org/pid/34/10155,1.0
+Pieter van Boxtel,,,0
 Evangelos Kanoulas,Evangelos Kanoulas,https://dblp.org/pid/22/3088,1.0
 Mando,Mandong Hu,https://dblp.org/pid/221/5922,0.8999999999999999
+Nick Pentreath,,,0
 Hannah Bast,Hannah Bast,https://dblp.org/pid/b/HannahBast,1.0
+Mike van der Velden,,,0
 Evan Chan,Evan Chan,https://dblp.org/pid/234/2797,1.0
 Joaquin A. Delgado,Joaquin A. Delgado,https://dblp.org/pid/205/0111,1.0
