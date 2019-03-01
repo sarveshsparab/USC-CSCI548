@@ -4,14 +4,14 @@ import requests
 import urllib.parse
 from nltk.metrics.distance import jaro_winkler_similarity
 
-NA_FLAG = False
+NA_FLAG = True
 
 INPUT_FILE = '../hw2-task2/Sarvesh_Parab_task2.csv'
 if NA_FLAG:
-    OUTPUT_FILE_1 = 'Sarvesh_Parab_task2_sim_noNA.csv'
+    OUTPUT_FILE_1 = 'Sarvesh_Parab_task2_sim.csv'
     LOG_FILE = 'log_noNA.txt'
 else:
-    OUTPUT_FILE_1 = 'Sarvesh_Parab_task2_sim.csv'
+    OUTPUT_FILE_1 = 'Sarvesh_Parab_task2_sim_noBlank.csv'
     LOG_FILE = 'log.txt'
 
 out_1_fh = open(OUTPUT_FILE_1, 'w', newline='')
@@ -62,6 +62,7 @@ def parse_result(q_xml):
 def get_best_match(ent, p_list):
     max_val = -1
     max_entity = ""
+    max_list = list()
     for p in p_list:
         sim_val = jaro_winkler_similarity(ent, p[0])
         log("\t\tSim value between : " + ent + " | " + p[0] + "   =>   " + str(sim_val))
@@ -69,7 +70,12 @@ def get_best_match(ent, p_list):
             max_val = sim_val
             max_entity = p
 
-    return max_val, max_entity
+    for p in p_list:
+        sim_val = jaro_winkler_similarity(ent, p[0])
+        if sim_val == max_val:
+            max_list.append([max_val, p])
+
+    return max_list
 
 
 for ent in data_list:
@@ -85,15 +91,17 @@ for ent in data_list:
         parsed_result = parse_result(query_result_xml)
 
         if len(parsed_result) > 0:
-            best_match_sim, best_match_entity = get_best_match(ent, parsed_result)
-            log("\tBest match for : " + ent + "  =>  " + str(best_match_entity[0])
-                + " [ " + str(best_match_sim) + " ]")
+            best_match_list = get_best_match(ent, parsed_result)
 
-            csv_writer_1.writerow([ent, best_match_entity[0], best_match_entity[1], str(best_match_sim)])
+            for best_match in best_match_list:
+                log("\tBest match for : " + ent + "  =>  " + str(best_match[1][0])
+                + " [ " + str(best_match[0]) + " ]")
+
+                csv_writer_1.writerow([ent, best_match[1][0], best_match[1][1], str(best_match[0])])
         else:
             log("\tNo match for : " + ent + " found.")
             if NA_FLAG:
-                csv_writer_1.writerow([ent, "N/A", "N/A", "N/A"])
+                csv_writer_1.writerow([ent, "", "", "0"])
 
     except Exception as e:
         log("Error in handling : " + ent)
